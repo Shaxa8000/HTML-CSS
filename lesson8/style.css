@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 100%;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.bgDark {
+    background: #282A35;
+}
+
+.textWhite {
+    color:#fff;
+}
+
+.textBlack {
+    color: #000;
+}
+
+.bgJquery {
+    background-color: #FFF4A3;
+}
+
+.bgGreen {
+  background: #04AA6D;
+}
+
+.bgYellow {
+   background: #FFF4A3;
+}
+
+.yellow {
+    color: #FFF4A3;
+}
+.red {
+    color: red;
+}
+
+.pink {
+    color: pink;
+}
+
+.bgPhp {
+   background: #FFC0C7;
+}
+
+.textDark {
+   color: #000;
+   font-weight: 500;
+}
+
+.bgDarkGrey {
+    background-color: #8ce9a8;
+}
+
+.coral {
+    color: coral;
+}
+.bgGrey {
+    background: #ccc;
+}
+
+.header {
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    text-transform: uppercase;
+}
+
+.description {
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+.btn {
+    width: 165px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    padding: 20px 30px;
+    width: 100%;
+}
+
+.right {
+    background-color: #E7E9EB;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px 10px 10px 10px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.code {
+    background: #000;
+    padding: 10px;
+}
+
+.rightHeader {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* starting of box2 */
+
+.box2{
+    width: 100%;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ccc; 
+}
+
+.box3 {
+    width: 100%;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF4A3;
+
+}
+
+.box4 {
+    width: 100%;
+    padding: 60px 20px;
+    background-color: #282A35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.right .code {
+    padding-bottom: 100px;
+}
+
+.box5 {
+   width: 100%;
+   display: flex;
+   padding: 60px 20px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.box6 {
+    background-color: #282A35;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    padding: 100px 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.left1 {
+    display: grid;
+    padding: 80px 40px;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.right1 {
+    display: grid;
+    padding: 80px 40px;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.css {
+    padding: 7.1em;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: #282A35;
+    padding: 50px;
+   
+}
+
+.btnCourses {
+   padding: 40px 20px;
+    width: 16rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.btnCourses:hover {
+    opacity: 0.8;
+    background: green;
+    color: #fff;
+}
+
+.backend {
+    background-color:#282A35;;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    grid-gap: 50px;
+    padding: 40px;
+}
+
+.btnCourses1 {
+    padding: 30px 20px;
+    font-size: 2rem;
+    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    cursor: pointer;
+    transition: 200ms;
+    padding: 50px 0px;
+    margin-right: 20px;
+}
+
+.btnCourses1:hover {
+    opacity: 0.8;
+    background: green;
+    color: #fff;
+}
+
+.colorPicker {
+    text-align: center;
+    padding: 50px;
+}
+
+.colorPicker h1 {
+    padding: 20px;
+}
+
+.colorPicker p {
+    padding: 20px;
+}
+
+.colorPicker img {
+    padding: 20px;
+}
+
+.codeGame {
+    background-color: #96D4D4;
+    text-align: center;
+    padding: 50px;
+}
+
+.codeGame p {
+    font-family: 'Freckle Face', cursive;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-shadow : 2px 2px black;
+}
+
+.codeGame h1 {
+    font-size: 48px;
+    font-family: 'Freckle Face', cursive;
+    text-shadow : 5px 4px black;
+}
+
+.codeGame .image {
+    padding: 20px;
+}
+
+.testing {
+    background: #282A35 url(w3codes.png) no-repeat fixed center;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.grid {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+    padding: 70px;
+}
+.leftGrid {
+    width: 100%;
+}
+.rightGrid {
+    width: 100%;
+}
+
+.leftGrid button{
+    padding: 4rem 15rem;
+}
+
+.rightGrid button{
+    padding: 4rem 15rem;
+}
+
+.flex {
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.flex:hover {
+    opacity: 0.8;
+    background: green;
+    color: #fff;
+}
+
+.templates {
+    text-align: center;
+    padding: 60px;
+    background-color: grey;
+
+}
+
+.templates button {
+    width: 15rem;
+    padding: 15px;
+}
+
+.im img {
+    width: 70%;
+    padding: 30px;
+    
+}
+
+.certificate {
+    background-color: #0f1535;
+}
+
+.certificate h1 {
+    padding: 50px;
+}
+
+.certificate button {
+    padding: 20px;
+}
+
+.certificate .btnn {
+    padding: 30px;
+    margin-left: 30px;
+}
+
+.certificate .h2 {
+  font-size: 30px;
+}
+
+.howTo {
+    text-align: center;
+    padding: 7rem
+}
+
+.howTo h1, p {
+    padding: 15px;
+}
+
+.howTo button {
+    padding: 15px;
+    font-size: 15px;
+    width: 15rem
+}
+
+.contacts {
+    background-color: #0f1535;
+    width: 100%;
+    display: block;
+    padding: 50px 25px;
+}
+
+.contacts button {
+    padding: 13px;
+    border-radius: 8px;
+    width: 7rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.rightbtn {
+    display:inline-block;
+}
+ .rightbtn a {
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    
+    
+}
+
+a:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.contacts button:hover {
+    background: green;
+    color: #fff;
+}
+.icons {
+  display: flex;
+  justify-content:end;
+  gap: 20px;
+  padding: 40px;
+}
+
+.icons i {
+    color: #fff;
+}
+
+
+
+
+

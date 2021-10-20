@@ -1,0 +1,29 @@
+body {
+    background-image: url(./halftone-background-with-circles_23-2148907689.jpg);
+    background-size: cover;
+
+}
+
+.header {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.container ul li a {
+    display: inline !important;
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a:hover {
+        background-color: coral;
+}
+
+.container2 {
+    text-align:center;
+    color: #fff;
+}
+
